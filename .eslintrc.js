@@ -20,7 +20,15 @@ module.exports = {
         'array-bracket-spacing': [ 'error', 'always' ],
         'space-before-function-paren': [ 'error', 'always' ],
         '@typescript-eslint/no-var-requires': 0,
-        'indent': [ 'error', 4 ],
+        '@typescript-eslint/indent': [
+            "error",
+            4,
+            {
+                'ignoredNodes': [
+                    'PropertyDefinition[decorators]'
+                ]
+            }
+        ],
     },
     env: {
         es2021: true,
