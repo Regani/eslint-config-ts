@@ -1,6 +1,6 @@
 {
   "name": "@cherry-very/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared eslint config",
   "private": false,
   "repository": {
@@ -21,6 +21,8 @@
     "typescript": "4.8.3"
   },
   "peerDependencies": {
-    "eslint": ">= 8"
+    "eslint": ">=8",
+    "@typescript-eslint/eslint-plugin": ">=5",
+    "@typescript-eslint/parser": ">=5"
   }
 }
