@@ -1,0 +1,26 @@
+{
+  "name": "@cherry-very/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "Shared eslint config",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherry-Very/eslint-config-ts.git"
+  },
+  "author": "Bohdan Konechnyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cherry-Very/eslint-config-ts/issues"
+  },
+  "homepage": "https://github.com/Cherry-Very/eslint-config-ts#readme",
+  "main": "index.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.37.0",
+    "@typescript-eslint/parser": "5.37.0",
+    "eslint": "8.23.1",
+    "typescript": "4.8.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  }
+}
