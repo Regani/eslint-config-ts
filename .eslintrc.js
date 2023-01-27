@@ -2,7 +2,7 @@
 module.exports = {
     root: true,
     plugins: [
-        "@typescript-eslint"
+        '@typescript-eslint'
     ],
     extends: [
         'plugin:@typescript-eslint/recommended',
@@ -14,18 +14,18 @@ module.exports = {
         'no-unused-vars': 'off',
         'no-console': [ 'error', { allow: [ 'debug' ] } ],
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'semi': [ 'error', 'never' ],
-        'quotes': [ 'error', 'single' ],
+        semi: [ 'error', 'never' ],
+        quotes: [ 'error', 'single' ],
         'object-curly-spacing': [ 'error', 'always' ],
         'array-bracket-spacing': [ 'error', 'always' ],
         'space-before-function-paren': [ 'error', 'always' ],
         '@typescript-eslint/no-var-requires': 0,
-        'indent': [ 'error', 4, { 'SwitchCase': 1 } ],
+        indent: [ 'error', 4, { SwitchCase: 1 } ],
         '@typescript-eslint/indent': [
-            "error",
+            'error',
             4,
             {
-                'ignoredNodes': [
+                ignoredNodes: [
                     'PropertyDefinition[decorators]'
                 ]
             }
