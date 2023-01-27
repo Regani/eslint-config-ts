@@ -20,6 +20,7 @@ module.exports = {
         'array-bracket-spacing': [ 'error', 'always' ],
         'space-before-function-paren': [ 'error', 'always' ],
         '@typescript-eslint/no-var-requires': 0,
+        'indent': [ 'error', 4, { 'SwitchCase': 1 } ],
         '@typescript-eslint/indent': [
             "error",
             4,
