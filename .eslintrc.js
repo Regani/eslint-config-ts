@@ -30,7 +30,8 @@ module.exports = {
                 ]
             }
         ],
-        'quote-props': [ 'error', 'as-needed' ]
+        'quote-props': [ 'error', 'as-needed' ],
+        'object-property-newline': [ 'error' ]
     },
     env: {
         es2021: true,
