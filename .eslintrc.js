@@ -31,7 +31,8 @@ module.exports = {
             }
         ],
         'quote-props': [ 'error', 'as-needed' ],
-        'object-property-newline': [ 'error' ]
+        'object-property-newline': [ 'error' ],
+        'key-spacing': [ 'error', { afterColon: true } ]
     },
     env: {
         es2021: true,
