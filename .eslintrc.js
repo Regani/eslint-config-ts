@@ -21,15 +21,6 @@ module.exports = {
         'space-before-function-paren': [ 'error', 'always' ],
         '@typescript-eslint/no-var-requires': 0,
         indent: [ 'error', 4, { SwitchCase: 1 } ],
-        '@typescript-eslint/indent': [
-            'error',
-            4,
-            {
-                ignoredNodes: [
-                    'PropertyDefinition[decorators]'
-                ]
-            }
-        ],
         'quote-props': [ 'error', 'as-needed' ],
         'object-property-newline': [ 'error' ],
         'key-spacing': [ 'error', { afterColon: true } ]
