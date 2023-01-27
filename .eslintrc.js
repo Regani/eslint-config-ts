@@ -12,7 +12,7 @@ module.exports = {
         '@typescript-eslint/ban-ts-comment': [ 'error' ],
         '@typescript-eslint/no-unused-vars': 'error',
         'no-unused-vars': 'off',
-        'no-console': 'error',
+        'no-console': [ 'error', { allow: [ 'debug' ] } ],
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'semi': [ 'error', 'never' ],
         'quotes': [ 'error', 'single' ],
@@ -29,6 +29,7 @@ module.exports = {
                 ]
             }
         ],
+        'quote-props': [ 'error', 'as-needed' ]
     },
     env: {
         es2021: true,
