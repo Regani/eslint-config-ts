@@ -1,6 +1,6 @@
 {
-  "name": "regani-eslint-config-ts",
-  "version": "1.0.9",
+  "name": "eslint-config-regani-ts",
+  "version": "1.0.10",
   "description": "Shared eslint config",
   "private": false,
   "repository": {
