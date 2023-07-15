@@ -12,7 +12,6 @@ module.exports = {
         '@typescript-eslint/ban-ts-comment': [ 'error' ],
         '@typescript-eslint/no-unused-vars': 'error',
         'no-unused-vars': 'off',
-        'no-console': [ 'error', { allow: [ 'debug' ] } ],
         'no-debugger': 'off',
         semi: [ 'error', 'never' ],
         quotes: [ 'error', 'single' ],
