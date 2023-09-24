@@ -14,6 +14,8 @@ module.exports = {
         'no-unused-vars': 'off',
         'no-debugger': 'off',
         'no-console': 'off',
+        'no-redeclare': 'off',
+        '@typescript-eslint/no-redeclare': [ 'error' ],
         semi: [ 'error', 'never' ],
         quotes: [ 'error', 'single' ],
         'object-curly-spacing': [ 'error', 'always' ],
