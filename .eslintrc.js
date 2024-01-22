@@ -25,7 +25,24 @@ module.exports = {
         indent: [ 'error', 4, { SwitchCase: 1 } ],
         'quote-props': [ 'error', 'as-needed' ],
         'object-property-newline': [ 'error' ],
-        'key-spacing': [ 'error', { afterColon: true } ]
+        'key-spacing': [ 'error', { afterColon: true } ],
+        'object-curly-newline': [ 'error', {
+            ObjectExpression: {
+                multiline: true,
+                consistent: true
+            },
+            ObjectPattern: { multiline: true },
+            ExportDeclaration: {
+                multiline: true,
+                minProperties: 3
+            }
+        } ],
+        'space-before-blocks': [ 'error', {
+            functions: 'always',
+            keywords: 'always',
+            classes: 'never'
+        } ],
+        'brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
     },
     env: {
         es2021: true,
