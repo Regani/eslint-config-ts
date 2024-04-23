@@ -40,7 +40,7 @@ module.exports = {
         'space-before-blocks': [ 'error', {
             functions: 'always',
             keywords: 'always',
-            classes: 'never'
+            classes: 'always'
         } ],
         'brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
     },
